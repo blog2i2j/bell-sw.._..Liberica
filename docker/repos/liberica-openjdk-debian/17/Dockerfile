@@ -15,7 +15,7 @@ ARG LIBERICA_VM="server"
 ARG LIBERICA_GENERATE_CDS=false
 
 ARG LIBERICA_JVM_DIR=/usr/lib/jvm
-ARG LIBERICA_VERSION=17.0.14
+ARG LIBERICA_VERSION=17.0.15
 ARG LIBERICA_BUILD=10
 ARG LIBERICA_ROOT=${LIBERICA_JVM_DIR}/jdk-${LIBERICA_VERSION}-bellsoft
 
@@ -71,7 +71,7 @@ RUN     LIBERICA_ARCH=''                       \
   &&    curl -SL "${PKG_URL}" -o /tmp/java/jdk.tar.gz \
   &&    SHA_URL="https://download.bell-sw.com/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}/docker/sha1sum.txt" \
   &&    if [ "${LIBERICA_IMAGE_VARIANT}" = "standard" ]; then                                                    \
-          SHA_URL="https://download.bell-sw.com/sha1sum/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}";         \
+          SHA_URL="https://download.bell-sw.com/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}/sha1sum.txt";         \
         fi \
   &&    SHA1=$(curl -fSL "${SHA_URL}"             \
                | grep ${PKG} | grep -v json       \

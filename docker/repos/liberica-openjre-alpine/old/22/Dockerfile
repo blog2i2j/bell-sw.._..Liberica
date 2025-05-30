@@ -110,7 +110,7 @@ RUN LIBERICA_ARCH='' &&  LIBERICA_ARCH_TAG='' &&   \
   &&    PKG_URL="https://download.bell-sw.com/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}${LITE_URL}/${PKG}" \
   &&    echo "Download ${PKG_URL}" \
   &&    wget "${PKG_URL}" -O /tmp/java/jre.tar.gz \
-  &&    SHA_URL="https://download.bell-sw.com/sha1sum/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}" \
+  &&    SHA_URL="https://download.bell-sw.com/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}/sha1sum.txt" \
   &&    if [ "$LIBERICA_USE_LITE" = "1" ]; then                                                    \
           SHA_URL="https://download.bell-sw.com/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}/docker/sha1sum.txt";         \
         fi \

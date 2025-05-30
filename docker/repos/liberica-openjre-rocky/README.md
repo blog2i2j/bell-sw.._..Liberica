@@ -35,36 +35,34 @@ For instance, [bellsoft/liberica-openjre-rocky:11.0.25-11-cds-x86_64](https://hu
 
 * [`latest`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/24/Dockerfile),
 [`latest-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/24/Dockerfile),
-[`24-37`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/24/Dockerfile),
-[`24-37-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/24/Dockerfile),
+[`24.0.1`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/24/Dockerfile),
+[`24.0.1-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/24/Dockerfile),
 [`24`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/24/Dockerfile),
 [`24-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/24/Dockerfile),
 * [`23`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/23/Dockerfile),
 [`23-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/23/Dockerfile),
-* [`21.0.6-10`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/21/Dockerfile),
-[`21.0.6-10-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/21/Dockerfile),
+* [`21.0.7`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/21/Dockerfile),
+[`21.0.7-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/21/Dockerfile),
 [`21.0.6`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/21/Dockerfile),
 [`21.0.6-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/21/Dockerfile),
 [`21`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/21/Dockerfile),
 [`21-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/21/Dockerfile),
-* [`17.0.14-11`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/17/Dockerfile),
-[`17.0.14-11-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/17/Dockerfile),
+* [`17.0.15`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/17/Dockerfile),
+[`17.0.15-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/17/Dockerfile),
 [`17.0.14`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/17/Dockerfile),
 [`17.0.14-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/17/Dockerfile),
 [`17`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/17/Dockerfile),
 [`17-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/17/Dockerfile)
-* [`11.0.26-9`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/11/Dockerfile),
-[`11.0.26-9-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/11/Dockerfile),
+* [`11.0.27`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/11/Dockerfile),
+[`11.0.27-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/11/Dockerfile),
 [`11.0.26`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/11/Dockerfile),
 [`11.0.26-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/11/Dockerfile),
 [`11`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/11/Dockerfile),
 [`11-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/11/Dockerfile)
-* [`8u442-7`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/8/Dockerfile),
-[`8u442-7-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/8/Dockerfile),
+* [`8u452`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/8/Dockerfile),
+[`8u452-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/8/Dockerfile),
 [`8u442`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/8/Dockerfile),
 [`8u442-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/8/Dockerfile),
-[`8u`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/8/Dockerfile)
-[`8u-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/8/Dockerfile)
 [`8`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/8/Dockerfile)
 [`8-cds`](https://github.com/bell-sw/Liberica/blob/master/docker/repos/liberica-openjre-rocky/8/Dockerfile)
 

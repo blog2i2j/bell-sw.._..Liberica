@@ -16,8 +16,8 @@ ARG LIBERICA_VM="server"
 ARG LIBERICA_GENERATE_CDS=false
 
 ARG LIBERICA_JVM_DIR=/usr/lib/jvm
-ARG LIBERICA_VERSION=24
-ARG LIBERICA_BUILD=37
+ARG LIBERICA_VERSION=24.0.1
+ARG LIBERICA_BUILD=11
 
 ARG LIBERICA_ROOT=${LIBERICA_JVM_DIR}/jdk-${LIBERICA_VERSION}-bellsoft
 ARG LIBERICA_GLIBC=no
@@ -73,7 +73,7 @@ RUN LIBERICA_ARCH=''                     \
   &&    wget "${PKG_URL}" -O /tmp/java/jdk.tar.gz                                                    \
   &&    SHA_URL="${DIST_URL}/sha1sum.txt" \
   &&    if [ ${LIBERICA_IMAGE_VARIANT} == "standard" ]; then                                                    \
-          SHA_URL="https://download.bell-sw.com/sha1sum/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}";         \
+          SHA_URL="https://download.bell-sw.com/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}/sha1sum.txt";         \
         fi \
   &&    SHA1=$(wget -q "${SHA_URL}" -O -          \
                | grep ${PKG} | grep -v json       \

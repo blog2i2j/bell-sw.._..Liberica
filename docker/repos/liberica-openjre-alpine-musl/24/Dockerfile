@@ -3,8 +3,8 @@ FROM alpine:3.21
 ENV  LANG=en_US.UTF-8 \
      LANGUAGE=en_US:en
 
-ARG LIBERICA_VERSION=24
-ARG LIBERICA_BUILD=37
+ARG LIBERICA_VERSION=24.0.1
+ARG LIBERICA_BUILD=11
 ARG LIBERICA_VARIANT=jre
 ARG LIBERICA_ROOT=/usr/lib/jvm/${LIBERICA_VARIANT}-${LIBERICA_VERSION}-bellsoft
 ARG LIBERICA_RELEASE_TAG=
@@ -46,7 +46,7 @@ RUN LIBERICA_ARCH='' && LIBERICA_ARCH_TAG='' &&    \
   &&    PKG_URL="https://download.bell-sw.com/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}${LITE_URL}/${PKG}" \
   &&    echo "Download ${PKG_URL}" \
   &&    wget "${PKG_URL}" -O /tmp/java/jre.tar.gz \
-  &&    SHA_URL="https://download.bell-sw.com/sha1sum/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}" \
+  &&    SHA_URL="https://download.bell-sw.com/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}/sha1sum.txt" \
   &&    if [ "$LIBERICA_USE_LITE" = "1" ]; then                                                    \
           SHA_URL="https://download.bell-sw.com/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}/docker/sha1sum.txt";         \
         fi \

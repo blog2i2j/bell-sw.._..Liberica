@@ -4,7 +4,7 @@ ENV  LANG=en_US.UTF-8 \
      LANGUAGE=en_US:en
 #	 LC_ALL=en_US.UTF-8
 
-ARG LIBERICA_VERSION=17.0.14
+ARG LIBERICA_VERSION=17.0.15
 ARG LIBERICA_BUILD=10
 ARG LIBERICA_VARIANT=jre
 ARG LIBERICA_ROOT=/usr/lib/jvm/${LIBERICA_VARIANT}-${LIBERICA_VERSION}-bellsoft
@@ -48,7 +48,7 @@ RUN LIBERICA_ARCH=''                             \
   &&    PKG_URL="https://download.bell-sw.com/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}${LITE_URL}/${PKG}" \
   &&    echo "Download ${PKG_URL}" \
   &&    curl -SL "${PKG_URL}" -o /tmp/java/jre.tar.gz \
-  &&    SHA_URL="https://download.bell-sw.com/sha1sum/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}" \
+  &&    SHA_URL="https://download.bell-sw.com/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}/sha1sum.txt" \
   &&    if [ "$LIBERICA_USE_LITE" = "1" ]; then                                                    \
           SHA_URL="https://download.bell-sw.com/java/${LIBERICA_VERSION}${LIBERICA_BUILD_STR}/docker/sha1sum.txt";         \
         fi \
